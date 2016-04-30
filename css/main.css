@@ -1,0 +1,169 @@
+
+
+/*****************
+GENERAL
+**********/
+
+
+
+
+a{
+	text-decoration: none;
+}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	
+}
+img {  max-width: 100%;}
+
+
+
+/**************
+header
+********/
+header { float: left;
+	margin: 0 0 50px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	background: #AAA839;
+	border-color: blue;
+	clear: both;
+}
+
+#logo { text-align: center;
+	margin: 0; 
+}
+h2 {
+	color: blue;
+}
+h1 { font-family: 'pacifico',sans-serif;
+  margin:15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+   line-height: 2em;
+ }
+ #galeria {margin:0;
+ padding:0;
+ list-style:none;}
+ #galeria li{ float: left;
+ 	width:45%;
+ 	margin:2.5%;
+ 	background-color: #f5f5f5;
+ 	color:#bdc3c7;
+ }
+
+ #galeria li a p {margin:0;
+ 	padding:5%;
+ 	font-size:0.75em;
+ 	color:#bdc3c7;}
+
+ 	footer {
+ 		font-size: 1em;
+ 			text-align: center;
+ 			clear: both;
+ 			padding-top: 50px;
+ 			color:black;
+ 			
+ 		   }
+
+/*NAVIGATION*/
+nav{
+	background: #AA4439;
+}
+nav a, nav a:visited {
+	color: black;
+
+	}
+nav a.selected {
+	color: #32673f;
+}
+nav a:hover{color:blue;}
+nav li { display:inline-block;}
+nav ul { list-style: none;
+		margin:0 10px;
+		padding:0;}
+.social-icon { width: 30px;
+		height: 30px;
+		margin: 0 5px;}
+
+.profile-photo{ display:block;
+max-width:300px;
+         margin:0 auto 80px;
+         border-radius: 100%;}
+/*******************************
+contacto
+********************************/
+
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{ 
+		min-height: 20px;
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		padding: 0 0 0 30px;
+		margin:0 0 10px;}
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png'); }
+
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');}
+	
+.contact-info li.twitter a{
+	background-image: url('../img/twitter-wrap.png');}
+
+
+
+/**  ajustando la navegacion**/
+nav {
+	background: none;
+	float:right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+
+/***************************
+         OVERLAY
+***************************/
+#overlay{
+	background: rgba(0,0,0,0.7);/*ulñtimovalor es opacity*/
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	
+	}
+
+#overlay img{
+	margin-top: 10%;
+}
+
+#overlay p {
+	color:white;
+}
+
+
+
+@media (min-width: 320px) and (max-width:  568px)
+{	#menu ul{
+		display: none;
+	}
+}
+
+@media  (min-width: 568px)
+{
+	#menu select,  #menu button 
+	{
+		display: none;
+	}
+}
